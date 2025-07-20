@@ -53,8 +53,6 @@ class Solution:
         output = ""
         # check if number is int
         for char in s:
-            if char == "0":
-                s = s.replace(char, "", 1)
             if char.isdigit():
                 output += char
             else:
